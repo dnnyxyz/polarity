@@ -630,7 +630,7 @@
                     <p>Connect to our server using the IP address below. Copy it directly to your clipboard with one click.</p>
                     
                     <div class="ip-container">
-                        <span>cs2.polarity-hvh.com:27015</span>
+                        <span>connect cs2.polarity-hvh.com:27015</span>
                         <button class="copy-btn" onclick="copyIP()">
                             <i class="fas fa-copy"></i> Copy
                         </button>
@@ -666,7 +666,7 @@
                             <div class="step-number">3</div>
                             <div class="step-content">
                                 <h4>Connect to Server</h4>
-                                <p>Type the following command: <code>connect cs2.polarity-hvh.com:27015</code></p>
+                                <p>Type or copy the following command: <code>connect cs2.polarity-hvh.com:27015</code></p>
                             </div>
                         </div>
                     </div>
@@ -768,7 +768,7 @@
     <script>
         
         function copyIP() {
-            const ip = "cs2.polarity-hvh.com:27015";
+            const ip = "connect cs2.polarity-hvh.com:27015";
             navigator.clipboard.writeText(ip).then(() => {
                 
                 const button = document.querySelector('.copy-btn');
